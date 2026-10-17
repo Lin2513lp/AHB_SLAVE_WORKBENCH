@@ -66,11 +66,13 @@ module ahb_slave (
         begin
             /*
              * Register-map addresses are word indices. 0x009..0x018 is
-             * the 16-entry PE data array; 0x100..0x104 is the report area.
+             * the 16-entry PE data array; 0x100..0x104 is the report area (DONE W1C).
+             * 0x105 is the independent TPU clock-gating enable register.
+             * 0x106 is the read-only independent error-flag report register.
              */
             address_is_mapped = (word_address <= 10'h018)
                              || ((word_address >= 10'h100)
-                              && (word_address <= 10'h104));
+                              && (word_address <= 10'h106));
         end
     endfunction
 

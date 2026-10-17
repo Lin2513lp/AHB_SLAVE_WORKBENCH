@@ -1,10 +1,11 @@
 {
   "source_directory": "tpu/tpu/AHB_SLAVE",
+  "release": "done-w1c-error106-20261017",
   "files": [
     {
       "path": "ahb_slave.sv",
-      "bytes": 8340,
-      "sha256": "75c021768383b0c446f848761d7f95bf0193b14439df0e3cdac904f418a64a47"
+      "bytes": 8758,
+      "sha256": "1b2bbdde4502c55861759345825ab27f0b13cedb77fedadbb1c0347556ab013a"
     },
     {
       "path": "Makefile",
