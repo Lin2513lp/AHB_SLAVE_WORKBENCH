@@ -8,11 +8,6 @@
       "sha256": "1b2bbdde4502c55861759345825ab27f0b13cedb77fedadbb1c0347556ab013a"
     },
     {
-      "path": "Makefile",
-      "bytes": 10669,
-      "sha256": "cd38495fa4041a163648e87fc902f03fac9dc33347b34c854c12140aca5f22f2"
-    },
-    {
       "path": "tb_ahb_slave.sv",
       "bytes": 3637,
       "sha256": "b4b6253582de8f6664ada66bf2b7091908ccde4607a4a9bfacc246f11d2342d1"
@@ -32,5 +27,6 @@
       "bytes": 3023,
       "sha256": "8bf5f93a72c525bdf8e55a7c54f882e0b79f936cca620363ad8faaee4dd04bc9"
     }
-  ]
+  ],
+  "sourceScope": "module-rtl-tb-only-20261024"
 }
