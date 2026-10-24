@@ -1,11 +1,11 @@
 {
   "source_directory": "tpu/tpu/AHB_SLAVE",
-  "release": "done-w1c-error106-20261017",
+  "release": "done-ro-comment-20261024",
   "files": [
     {
       "path": "ahb_slave.sv",
-      "bytes": 8758,
-      "sha256": "1b2bbdde4502c55861759345825ab27f0b13cedb77fedadbb1c0347556ab013a"
+      "bytes": 8757,
+      "sha256": "1d624c4866f40e7dcc124859776e011c9be1cd21c00d3d7be0203cec45b5cdc5"
     },
     {
       "path": "tb_ahb_slave.sv",
